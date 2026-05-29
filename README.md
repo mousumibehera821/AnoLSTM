@@ -7,8 +7,10 @@ In a continuous integration environment, code is often merged into the mainline 
 
 Experiments were conducted on two industrial datasets from ABB Robotics Norway:
 
-IOF/ROL
-Paint Control
+| Dataset | 
+|----------|
+| IOF/ROL | 
+| Paint Control | 
 
 The proposed approach achieved APFD scores of:
 
