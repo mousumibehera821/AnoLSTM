@@ -1,4 +1,4 @@
-# AnoLSTM-TCP
+# AnoLSTM
 AnoLSTM-A Deep Learning Approach for Test Cases Prioritization
 
 
@@ -12,9 +12,10 @@ Paint Control
 
 The proposed approach achieved APFD scores of:
 
-**Dataset**       **APFD**
-**IOF/ROL**	        0.85
-**Paint Control**	  0.90
+| Dataset | APFD |
+|----------|------|
+| IOF/ROL | 0.85 |
+| Paint Control | 0.90 |
 
 These results outperform several existing approaches, including Random, ROCKET, RETECS, DeepGini, DeepOrder, LSTMTCP, and HyLSTMTCP.
 
@@ -46,6 +47,10 @@ python final_iofrol.py
 # Paint Control Dataset
 
 python final_paint_control.py
+
+## Paper
+Published in Procedia Computer Science (2025)
+DOI: https://doi.org/10.1016/j.procs.2025.04.431
 
 # Citation
 If you use this work, please cite:
