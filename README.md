@@ -52,6 +52,7 @@ python final_paint_control.py
 
 ## Paper
 Published in Procedia Computer Science (2025)
+
 DOI: https://doi.org/10.1016/j.procs.2025.04.431
 
 # Citation
