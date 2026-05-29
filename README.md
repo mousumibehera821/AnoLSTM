@@ -26,29 +26,37 @@ The datasets used in this work are publicly available at:
 
 https://bitbucket.org/HelgeS/retecs/src/master/DATA/
 
-# Repository Structure
+## Repository Structure
 
-AnoLSTM-TCP 
-│ 
-├── final_iofrol.py 
-├── final_paint_control.py 
-├── requirements.txt 
-├── README.md 
+```text
+AnoLSTM/
+├── AnoLSTM_Paper.pdf
+├── final_iofrol.py
+├── final_paint_control.py
+├── requirements.txt
+└── README.md
+```
 
 # Running the Code
 
 # Install Dependencies
- pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 
 # Running the Experiments
 
 # IOF/ROL Dataset
 
+```bash
 python final_iofrol.py
+```
 
 # Paint Control Dataset
 
+```bash
 python final_paint_control.py
+```
 
 ## Paper
 Published in Procedia Computer Science (2025)
@@ -58,6 +66,7 @@ DOI: https://doi.org/10.1016/j.procs.2025.04.431
 # Citation
 If you use this work, please cite:
 
+```bibtex
 @article{choudhury2025anolstm,
   title={AnoLSTM-A deep learning approach for test cases prioritization},
   author={Choudhury, Tapas Kumar and Behera, Mousumi and Dash, Sanjit Kumar and Pani, Subhendu Kumar and Mishra, Jibitesh},
@@ -67,3 +76,4 @@ If you use this work, please cite:
   year={2025},
   publisher={Elsevier}
 }
+```
